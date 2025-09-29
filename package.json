@@ -1,0 +1,24 @@
+{
+  "name": "apture",
+  "version": "1.0.0",
+  "description": "Find exceptional talent with AI - Analyze inbound candidates and filter signal from noise on autopilot",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . -l 3000",
+    "build": "echo 'Static site - no build step required'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "recruitment",
+    "ai",
+    "talent",
+    "candidates",
+    "hiring"
+  ],
+  "author": "Apture",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
