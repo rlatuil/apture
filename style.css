@@ -350,7 +350,7 @@ h4 { font-size: 1.25rem; }
   background: none;
   border: none;
   font-size: 15px;
-  color: #333333;
+  color: #666666;
   cursor: pointer;
 }
 
@@ -389,7 +389,7 @@ h4 { font-size: 1.25rem; }
 .candidate-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
 }
 
 .candidate-card {
