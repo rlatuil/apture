@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Dashboard - Apture</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main class="dashboard-page">
+      <div class="dashboard-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <div class="user-profile">
+            <img src="img/rectangle-414.svg" alt="Alex" class="profile-avatar" />
+            <span class="user-name">Alex | Ark</span>
+          </div>
+          
+          <nav class="sidebar-nav">
+            <button class="nav-item active">
+              <span class="nav-icon">🏠</span>
+              <span>Home</span>
+            </button>
+            <button class="nav-item">
+              <span class="nav-icon">→</span>
+              <span>Add new role</span>
+            </button>
+          </nav>
+
+          <div class="role-list">
+            <div class="role-item">
+              <h4>Poland MD</h4>
+              <span class="candidate-count">1 candidate</span>
+            </div>
+            <div class="role-item">
+              <h4>AI engineer</h4>
+              <span class="candidate-count">1 candidate</span>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+          <!-- Stats Grid -->
+          <div class="stats-grid">
+            <div class="stat-card">
+              <h3>Candidates</h3>
+              <div class="stat-value">100</div>
+              <div class="stat-chart"></div>
+            </div>
+            <div class="stat-card">
+              <h3>Average score</h3>
+              <div class="stat-value">85 <span class="star">*</span></div>
+              <div class="stat-chart"></div>
+            </div>
+            <div class="upload-card">
+              <button class="upload-btn">Upload new candidates</button>
+            </div>
+          </div>
+
+          <!-- Filters -->
+          <div class="filters">
+            <button class="filter-btn active">New</button>
+            <button class="filter-btn">All</button>
+            <button class="filter-btn dropdown">> Sort by score</button>
+            <button class="filter-btn dropdown">> Filter by role</button>
+          </div>
+
+          <!-- Candidate Grid -->
+          <div class="candidate-grid">
+            <article class="candidate-card">
+              <h3 class="candidate-name">Henri Belforod</h3>
+              <p class="candidate-description">
+                Amazing AI developer with background at Tesla. Amazing AI developer with background at Tesla. Amazing AI developer with background at Tesla.
+              </p>
+              <div class="candidate-score">
+                <span class="star">*</span>
+                <span>84 points</span>
+              </div>
+              <div class="candidate-tags">
+                <span class="tag green">Exceptional experience</span>
+                <span class="tag green">Top education</span>
+              </div>
+              <div class="candidate-role">Poland MD</div>
+            </article>
+
+            <article class="candidate-card">
+              <h3 class="candidate-name">Henri Belforod</h3>
+              <p class="candidate-description">
+                Amazing AI developer with background at Tesla. Amazing AI developer with background at Tesla. Amazing AI developer with background at Tesla.
+              </p>
+              <div class="candidate-score">
+                <span class="star">*</span>
+                <span>84 points</span>
+              </div>
+              <div class="candidate-tags">
+                <span class="tag green">Exceptional experience</span>
+                <span class="tag green">Top education</span>
+              </div>
+              <div class="candidate-role">Poland MD</div>
+            </article>
+
+            <article class="candidate-card">
+              <h3 class="candidate-name">Henri Belforod</h3>
+              <p class="candidate-description">
+                Amazing AI developer with background at Tesla. Amazing AI developer with background at Tesla. Amazing AI developer with background at Tesla.
+              </p>
+              <div class="candidate-score">
+                <span class="star">*</span>
+                <span>84 points</span>
+              </div>
+              <div class="candidate-tags">
+                <span class="tag green">Exceptional experience</span>
+                <span class="tag green">Top education</span>
+              </div>
+              <div class="candidate-role">Poland MD</div>
+            </article>
+
+            <article class="candidate-card">
+              <h3 class="candidate-name">Henri Belforod</h3>
+              <p class="candidate-description">
+                Amazing AI developer with background at Tesla. Amazing AI developer with background at Tesla. Amazing AI developer with background at Tesla.
+              </p>
+              <div class="candidate-score">
+                <span class="star">*</span>
+                <span>84 points</span>
+              </div>
+              <div class="candidate-tags">
+                <span class="tag green">Exceptional experience</span>
+                <span class="tag green">Top education</span>
+              </div>
+              <div class="candidate-role">Poland MD</div>
+            </article>
+          </div>
+        </main>
+      </div>
+    </main>
+  </body>
+</html>
